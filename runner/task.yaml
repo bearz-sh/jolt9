@@ -1,0 +1,6 @@
+name: bob
+parameters:
+  local:
+    type: string
+    default: "hello"
+    order: 1
