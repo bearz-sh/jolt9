@@ -30,7 +30,7 @@ fi
 
 U=$USER
 if [ ! -z "${SUDO_USER}" ]; then 
-    $U=$SUDO_USER
+    U=$SUDO_USER
 fi
 
 
